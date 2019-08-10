@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GroceryStore"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="500" Width="880" MinHeight="500" MinWidth="880">
     <Grid>
-        <Frame x:Name="mainFrameView" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" />
+        <Frame x:Name="mainFrameView" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Width="850" Height="450" />
 
     </Grid>
 </Window>

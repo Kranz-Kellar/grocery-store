@@ -13,18 +13,20 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace GroceryStore
+namespace GroceryStore.Frames
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for ProductFrame.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ProductFrame : Page
     {
-        public MainWindow()
+        public ProductFrame()
         {
             InitializeComponent();
 
-            mainFrameView.Navigate(new Frames.ProductFrame());
+
+            DataContext = new ViewModel.ProductsViewModel();
+
         }
     }
 }
